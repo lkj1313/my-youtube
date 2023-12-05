@@ -12,9 +12,9 @@ import Channel from "./pages/Channel";
 import Video from "./pages/Video";
 import Search from "./pages/Search";
 import Not from "./pages/Not";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Header from "./components/section/Header";
+import Main from "./components/section/Main";
+import Footer from "./components/section/Footer";
 
 const App = () => {
   return (

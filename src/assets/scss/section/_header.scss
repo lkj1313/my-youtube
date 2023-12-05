@@ -10,7 +10,7 @@
       display: block;
       background-color: var(--red);
       margin-right: 10px;
-      animation: ani 20s 20s ease-in-out infinite;
+      animation: ani 20s 5s ease-in-out infinite;
     }
     span {
       font-size: 20px;
@@ -26,7 +26,7 @@
   .menu {
     border-bottom: 1px solid var(--black100);
     li {
-      margin-bottom: 2px;
+      margin-bottom: 1px;
       a {
         font-size: 1rem;
         display: block;
