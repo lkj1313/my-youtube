@@ -1,6 +1,5 @@
 import React from "react";
 import Main from "../components/section/Main";
-import Channel from "./Channel";
 
 const Channel = () => {
   return <Main>Channel</Main>;
