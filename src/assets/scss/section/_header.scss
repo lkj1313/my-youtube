@@ -1,5 +1,6 @@
 .header_logo {
   border-bottom: 1px solid var(--black100);
+
   a {
     display: flex;
     padding: 10px;
@@ -91,6 +92,10 @@
   padding: 15px 0 10px;
   background-color: var(--blackAlpah100);
   backdrop-filter: blur(10px);
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 
   li {
     display: inline-block;
