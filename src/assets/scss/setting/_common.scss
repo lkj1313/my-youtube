@@ -41,8 +41,7 @@ section {
       content: "";
       width: 80px;
       height: 80px;
-      background: var(--blackAlpah400) url(../../img/icon/play.svg) no-repeat
-        center;
+
       position: absolute;
       left: 50%;
       top: 50%;
@@ -51,6 +50,8 @@ section {
       transition: opacity 0.3s;
     }
     &:hover::after {
+      background: var(--blackAlpah400) url(../../img/icon/play.svg) no-repeat
+        center;
       opacity: 1;
     }
   }
