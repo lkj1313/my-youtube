@@ -10,6 +10,8 @@ import { websiteText } from "../data/website";
 import { gsapText } from "./../data/gsap";
 import { portfolioText } from "./../data/portfolio";
 import { youtubeText } from "./../data/youtube";
+import { developerText } from "./../data/developer";
+import { todayText } from "./../data/today";
 
 const Home = () => {
   return (
@@ -17,8 +19,12 @@ const Home = () => {
       title="웹스토리보이 유튜브"
       description="웹스토리보이 유튜버 사이트에 오신 것을 환영합니다."
     >
-      <Today />
-      <Developer />
+      <Today videos={todayText} id="today" />
+      <Developer
+        videos={developerText}
+        title="😪 추천 개발자를 소개합니다."
+        id="developer"
+      />
       <VideoSlider
         videos={webdText}
         title="😊 웹디자인기능 준비는 이걸로!"

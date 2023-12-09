@@ -17,7 +17,7 @@ const VideoSlider = ({ id, title, videos }) => {
       setLoding(false);
     }, 500);
   }, []);
-  const videoClass = loading ? "isLoding" : "isLoaded";
+  const videoClass = loading ? "isLoading" : "isLoaded";
   return (
     <section id={id} className={videoClass}>
       {console.log("hi2")}
