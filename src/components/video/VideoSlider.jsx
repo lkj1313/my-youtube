@@ -20,7 +20,6 @@ const VideoSlider = ({ id, title, videos }) => {
   const videoClass = loading ? "isLoading" : "isLoaded";
   return (
     <section id={id} className={videoClass}>
-      {console.log("hi2")}
       <h2>{title}</h2>
       <div className="video_slider">
         <Swiper
