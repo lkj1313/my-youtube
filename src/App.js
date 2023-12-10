@@ -30,7 +30,7 @@ const App = () => {
           <Route path="/youtube" element={<Youtube />}></Route>
           <Route path="/channel/:channelID" element={<Channel />}></Route>
           <Route path="/video/:videoID" element={<Video />}></Route>
-          <Route path="/search/:searchID" element={<Search />}></Route>
+          <Route path="/search/:searchId" element={<Search />}></Route>
           <Route path="*" element={<Not />}></Route>
         </Routes>
       </Suspense>

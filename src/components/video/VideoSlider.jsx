@@ -13,7 +13,6 @@ const VideoSlider = ({ id, title, videos }) => {
   const [loading, setLoding] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      console.log("hi");
       setLoding(false);
     }, 500);
   }, []);
