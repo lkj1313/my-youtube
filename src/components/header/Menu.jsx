@@ -26,7 +26,7 @@ const Menu = () => {
           return (
             <li
               key={key}
-              className={location.pathname == keyword.src ? "active" : ""}
+              className={location.pathname === keyword.src ? "active" : ""}
             >
               <Link to={keyword.src}>
                 {keyword.icon}
