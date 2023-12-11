@@ -28,8 +28,8 @@ const App = () => {
           <Route path="/gsap" element={<Gsap />}></Route>
           <Route path="/port" element={<Port />}></Route>
           <Route path="/youtube" element={<Youtube />}></Route>
-          <Route path="/channel/:channelID" element={<Channel />}></Route>
-          <Route path="/video/:videoID" element={<Video />}></Route>
+          <Route path="/channel/:channelId" element={<Channel />}></Route>
+          <Route path="/video/:videoId" element={<Video />}></Route>
           <Route path="/search/:searchId" element={<Search />}></Route>
           <Route path="*" element={<Not />}></Route>
         </Routes>
