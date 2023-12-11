@@ -7,7 +7,7 @@ const VideoCard = ({ videos }) => {
       {videos.map((video, key) => (
         <div className="video" key={key}>
           <div className="video_thumb play_icon">
-            <Link to={`video/${video.videoId}`}>
+            <Link to={`/video/${video.videoId}`}>
               <img src={video.img} alt={video.title} />
             </Link>
           </div>

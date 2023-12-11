@@ -43,7 +43,9 @@ const Video = () => {
               <h2 className="video_title">{videoDetail.snippet.title}</h2>
               <div className="video_channel">
                 <div className="id">
-                  <Link to="/channel/">{videoDetail.snippet.channelTitle}</Link>
+                  <Link to={`/channel/${videoDetail.snippet.channelId}`}>
+                    {videoDetail.snippet.channelTitle}{" "}
+                  </Link>
                 </div>
                 <div className="count">
                   <span className="view">
