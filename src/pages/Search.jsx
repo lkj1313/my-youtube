@@ -40,6 +40,9 @@ const Search = () => {
   return (
     <Main title="유투브 검색" description="유튜브 검색 결과 페이지입니다.">
       <section id="searchPage" className={searchPageClass}>
+        <h2>
+          👍 <em>{searchId}</em> 검색결과입니다.
+        </h2>
         <div className="video_inner search">
           <VideoSearch videos={videos} />
         </div>
